@@ -1,0 +1,241 @@
+body
+{
+	background-color: lightgrey;
+}
+
+.header
+{
+	width: 100%;
+	background-color: white;
+	padding: 15px;
+	/*position: fixed;*/
+}
+.header .logo img
+{
+	width: 50px;
+	height: 70px;
+	display: inline-block;
+	/*background-color: green;*/
+	margin-top: -15px;
+	margin-right: 50px;
+	margin-left: 25px;
+	float: left;
+}
+.header .logo img:hover
+{
+	opacity: 0.8;
+	transition: 0.3s;
+}
+.header ul
+{
+	list-style-type: none;
+	margin-top: 10px;
+}
+.header li
+{
+	display: inline;
+	text-align: center;
+}
+.header li a
+{
+	text-decoration: none;
+	text-align: center;
+	transition: 0.3s;
+	color: black;
+	font-family: verdana;
+	padding: 10px 16px;
+}
+.header li a:hover
+{
+	background-color: #8b5b85;
+	color: white;
+	padding: 10px 20px;
+	transition: 0.2s;
+	border-radius: 5px;
+}
+.header .SignUp a
+{
+	background-color: #8b5b85;
+	color: white;
+	padding: 10px 16px;
+	border-radius: 5px;
+	position: absolute;
+	right: 50px;
+	overflow: none;
+	margin-top: -10px;
+	
+}
+.header .SignUp a:hover
+{
+	background-color: #8b5b85;
+	opacity: 0.8;
+	transition: 0.2s;
+	padding: 10px 18px;
+}
+
+.back
+{
+	background-image: url("vespic2.jpg");
+	width: 100%;
+	height: 85vh;
+	/*overflow: hidden;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: center center;*/
+}
+.back .login
+{
+	padding: 20px;
+	width: 30%;
+	margin-right: 55px;
+	margin-top: 150px;
+	float: right;
+	overflow: auto;
+}
+
+ .back.vertical-line
+{
+      width: 5px solid; /* Line width */
+      background-color: black; /* Line color */
+      height: 100%;
+      margin-left: 30%;
+    /* Override in-line if you want specific height. */
+      /*float: left; /* Causes the line to float to left of content. 
+        You can instead use position:absolute or display:inline-block
+        if this fits better with your design */
+}
+
+.back .login input
+{
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.3s;
+	opacity: 0.8;
+	font-family: Verdana;
+	border: none;
+}
+.back .login input:focus
+{
+	width: 100%;
+	padding: 13px;
+	border-radius: 20px;
+	transition: 0.3s;
+	opacity: 1;
+	outline: none;
+	border: none;
+}
+.back .login .forgot
+{
+	text-align: right;
+	color: white;
+}
+.back .login .forgot a
+{
+	color: lightgrey;
+	transition: 0.3s;
+}
+.back .login .forgot a:hover
+{
+	/*color: blue;*/
+	text-decoration: none;
+	font-size: 125%;
+	transition: 0.3s;
+}
+.back .login input[type=submit]
+{
+	background-color: #6c4767;
+	color: white;
+	opacity: 1;
+	border: none;
+}
+
+/*.feat
+{
+	background-color: #006969;
+	overflow: auto;
+	margin-top: 30px;
+	height: 200vh;
+	transition: 0.3s;
+}
+.feat a
+{
+	transition: 0.9s;
+}
+
+.feat .attendance
+{
+	width: 100%;
+	height: 30%;
+	background-color: lightgrey;
+	border-top-style: solid;
+	border-width: 0.5px;
+	border-color: #a6a6a6;
+	/*-webkit-box-shadow: inset 10px 10px 15px 15px #000;*/
+}
+.feat .attendance .text1
+{
+	background-color: #a6a6a6;
+	width: 60%;
+	float: right;
+	height: 100%;
+	transition: 0.3s;
+}
+.feat .attendance .text1:hover
+{
+	background-color: #a6a6a6;
+	width: 60%;
+	float: right;
+	height: 100%;
+	box-shadow: inset 5px 5px 10px 10px grey;
+	transition: 0.3s;
+}
+.feat .attendance .text1 .attHead
+{
+	text-align: right;
+	font-family: Verdana;
+	font-size: 60px;
+	margin-right: 20%;
+	margin-top: 10%;
+	color: #8b5b85;
+}
+
+.feat .attendance .text1 .attText
+{
+	text-align: right;
+	font-family: Verdana;
+	font-size: 30px;
+	margin-right: 20%;
+	color: #8b5b85;
+}
+.feat .attendance .img1
+{
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-color: #a6a6a6;
+	
+}
+.feat .attendance .img1:hover
+{
+	/*box-shadow: inset 5px 5px 5px 15px grey;*//*
+}
+.feat .attendance .img1 img
+{
+	width: 60%;
+	height: 60%;
+	position: relative;
+	top: 35%;
+	left: 30%;
+	transition: 0.3s;
+}
+.feat .attendance .img1 img:hover
+{
+	width: 70%;
+	height: 70%;
+	position: relative;
+	top: 10%;
+	left: 15%;
+	transition: 0.5s;
+	
+}*/
